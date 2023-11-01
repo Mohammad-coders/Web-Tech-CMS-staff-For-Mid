@@ -23,7 +23,7 @@ if(isset($_POST['add'])){
         <tr style="height:200px;">
           <td><h1>Appoinment View</h1><br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
             <a href="Dashboard.php">Dashboard</a> &nbsp &nbsp &nbsp 
-            <a href="PatientView.php">Patient</a>&nbsp &nbsp &nbsp
+            <a href="PatientList.php">Patient</a>&nbsp &nbsp &nbsp
             <a href="AppointmentView.php">Appointment</a>&nbsp &nbsp &nbsp
             <a href="Invoice.php">Transaction</a>&nbsp &nbsp &nbsp
             <a href="">Notification</a>&nbsp &nbsp &nbsp
