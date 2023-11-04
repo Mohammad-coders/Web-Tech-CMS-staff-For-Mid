@@ -55,9 +55,9 @@ if(isset($_POST['add'])){
                     <td><?php echo $r['Serial'];?></td>
 
                     <td>
-                      <button type="submit" name="view" value="<?php echo $r["SLNo"] ; ?>">View</button>
-                      <form method="get" action="EditAppointment.php"><button type="submit" name="edit"  value="<?php echo $r["SLNo"] ; ?>">Edit</button> </form>
+                      <form  action="EditAppointment.php" method="get"><button type="submit" name="edit"  value="<?php echo $r["SLNo"] ; ?>">Edit</button> </form>
                       <form action="DeleteAppointment.php" method="get"><button type="submit" name="delete" value="<?php echo $r["SLNo"] ; ?>">Delete</button> </form>
+                      <form  action="AddInvoice.php" method="get"><button type="submit" name="addpayment"  value="<?php echo $r["SLNo"] ; ?>">InsertPayment</button> </form>
                     </td>
                     
                 </tr>
